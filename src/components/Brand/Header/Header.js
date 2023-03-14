@@ -7,11 +7,11 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <div className={classes.header}>
-        <h1>ReactMeals</h1>
+        <h1>mulliri.com</h1>
         <HeaderCartButton></HeaderCartButton>
       </div>
       <div className={classes["main-image"]}>
-        <img src="/images/meals.jpg" alt="meals"></img>
+        {/* <img src="/images/R.png" alt="meals"></img> */}
       </div>
     </React.Fragment>
   );

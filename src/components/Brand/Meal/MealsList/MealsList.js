@@ -8,7 +8,7 @@ export default function MealsList(props) {
   return (
     <Card className={classes.meals}>
       <ul>
-        {isLoading && <li>Loading meals, Please wait... </li>}
+        {isLoading && <li>Loading Kafet, Please wait... </li>}
         {!isLoading &&
           Object.entries(meals).map(([key, value]) => (
             <MealItem key={key} id={key} {...value}></MealItem>
