@@ -9,7 +9,7 @@ const useMealsApi = () => {
     const loadMeals = (fetchedMeals) => {
       setMeals(fetchedMeals);
     };
-    getMeals({ url: "meals.json" }, loadMeals);
+    getMeals({ url: "" }, loadMeals);
   }, [getMeals]);
 
   return { meals, isLoading, error };
